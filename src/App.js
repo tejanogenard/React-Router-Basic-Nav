@@ -7,9 +7,9 @@ const App = () => (
   <div>
     
     <Navigation >
-       <Route path = "/"><Home /></Route>
-       <Route path = "/About"> <About/></Route>
-       <Route path = "/Contact"><Contact /></Route>
+       <Route exact path = "/"><Home /></Route>
+       <Route exact path = "/About"> <About/></Route>
+       <Route exact path = "/Contact"><Contact /></Route>
      </Navigation>
  
   </div>
